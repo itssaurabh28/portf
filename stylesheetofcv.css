@@ -1,0 +1,122 @@
+body{ 
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+} 
+#header{
+    ul{
+        position: fixed;
+        padding: 10px;
+        margin-left: 500px;
+        margin-right: 300px;
+        border: 2px solid black;
+        
+        background-color: black; 
+        /* background: linear-gradient(to bottom, #ccffcc 0%, #cc00cc 100%); */
+        overflow: hidden;
+    }
+
+    li{
+        float: left;
+    }
+
+    li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+
+    }
+    li a:hover{
+        color: green;
+        background-color: white;
+    }
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-container>div{
+    background: linear-gradient(to bottom, #ff66ff 0%, #ffffff 100%);
+    border: 2px solid black;
+    border-radius: 2%;
+    margin: 100px 100px;
+    height: 400px;
+    width: 400px;
+    transition: width 2s, height 4s;
+}
+.flex-container>div:hover{
+     height:450px;
+    width:420px; 
+    background: linear-gradient(to bottom, #3333ff 0%, #33cccc 100%); 
+    /* transform: scale(1.2); 
+    transition-delay: 2s; */
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.flex-container>div>ul{
+    float: left;
+    overflow: hidden;
+    margin: 20px;
+    list-style-type:none; 
+    
+}
+.flex-container>div>ul>li{
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 20%; 
+        height: 50px;
+        width: 70px;
+        text-align: center;
+        transition: width 2s, height 4s; 
+        padding-top: 20px;
+        margin: 20px;
+}
+.flex-container li:hover{ 
+    background-color: black;
+        color:white ;
+        height: 80px;
+        width: 100px;
+}
+table,th,td{
+    border:2px solid black;
+}
+td{
+    width: 20%;
+    text-decoration: none;
+}
+i{
+    width: 200px; height: 100px;
+    color: white;
+}
+i:hover{
+    color: green;
+}
+footer{
+    width: 100%; 
+    margin: 0; 
+    background: black;
+    display: block;
+    bottom: 0;
+    overflow: hidden;
+}
+.hobbies{
+    color: black;
+}
